@@ -1,0 +1,55 @@
+.logo-container-heading {
+   font-size: 38px;
+   font-weight: 900;
+   font-family: 'Raleway';
+   letter-spacing: 0.03em;
+   background: linear-gradient(#0096FF, #0048FF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.selectors {
+    color: #000;
+    font-size: 16px;
+    border: 0px solid #000;
+    text-align: center;
+    height: 90px;
+}
+
+.twoflex {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button-element {
+    background-image: linear-gradient(#0096FF, #0048FF);
+    height: 40px;
+    width: large(166px);
+    border-radius: 52px;
+    Padding: 10px, 42px, 10px, 42px;
+    Gap: 10px;
+    border: 0px #000 solid;
+    color: #fff;
+    font-family: 'Raleway';
+    cursor: pointer;
+}
+
+.second-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px   ;
+}
+
+.header-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 72px;
+}
+
